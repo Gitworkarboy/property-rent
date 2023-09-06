@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+
+  margin: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+body {
+  margin: 0;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+}
+
+a {
+  color: #4285f6;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* Thumb */
+::-webkit-scrollbar-thumb {
+  background-color: #888;
+}
+
+/* Thumb on hover */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Scrollbar */
+::-moz-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-moz-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* Thumb */
+::-moz-scrollbar-thumb {
+  background-color: #888;
+}
+
+/* Thumb on hover */
+::-moz-scrollbar-thumb:hover {
+  background-color: #555;
+}
+
+/* Scrollbar */
+::-ms-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-ms-scrollbar-track {
+  background-color: #f1f1f1;
+}
+
+/* Thumb */
+::-ms-scrollbar-thumb {
+  background-color: #888;
+}
+
+/* Thumb on hover */
+::-ms-scrollbar-thumb:hover {
+  background-color: #555;
+}
